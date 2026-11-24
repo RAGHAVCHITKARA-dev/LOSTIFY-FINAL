@@ -19,7 +19,7 @@ public class MatchHistoryManager {
     }
 
     public void displayAll() {
-        if (count == 0) { System.out.println("No match history available."); return; }
+        if (count == 0) { System.out.println("No Match history available."); return; }
         for (int i = 0; i < count; i++) matches[i].display();
     }
 
